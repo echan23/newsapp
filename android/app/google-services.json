@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "967650947259",
+    "project_id": "newsfeedapp-ec17a",
+    "storage_bucket": "newsfeedapp-ec17a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967650947259:android:8fc2b25d0c921ab862f99e",
+        "android_client_info": {
+          "package_name": "com.exam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5RuqwN4ZcgtCq6svm4e1pxh_YcxcQxVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
