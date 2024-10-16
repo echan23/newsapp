@@ -1,5 +1,5 @@
 # newsapp
-by Edward Chan
+This is a simple social media app that allows users to make posts and like other posts. They can also view their own profile and change their bio.
 
 ## Getting Started
 
