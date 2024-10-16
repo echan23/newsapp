@@ -18,7 +18,7 @@ the folder location (ios -> Pods -> FirebaseStorage -> FirebaseStorage -> Source
 the StorageError.swift file that I provided in the repository. Then re-run "flutter run" and the app should launch.
 ********
 
-Upon entering the app, users are presented with a login page. They can click "Register Here" to register their account. After a use is logged in/registered,
+Upon entering the app, users are presented with a login page. They can click "Register Here" to register their account. After a user is logged in/registered,
 they're taken to a homepage where they can see recent posts. The posts are displayed by recency, so the latest posts are at the top. Users can open a sidebar
 where they can view their profile and edit their bio.
 
@@ -26,7 +26,10 @@ Currently, users are able to delete posts that aren't their own, but this is som
 the like button for each post. The like count is stored locally and persists even after refreshing the app in the simulator. However, if you restart the simulator
 session from your IDE (by running "flutter run"), the likes for each post will be lost.
 
-For my state management, I chose to use the Bloc library, which is a design pattern that separates the business logic from the user interface (UI) 
+I chose to use Firebase for User Authentication and FireStore as the database. If I were to expand this project in the future, I would probably probably migrate
+this to AWS.
+
+For my state management, I used the Bloc library, which is a design pattern that separates the business logic from the user interface (UI)
 by using streams to manage state. BLoC lets you build applications while ensuring that UI components don't directly depend on business logic and vice versa.
 
   How BLoC Works:
@@ -34,5 +37,4 @@ by using streams to manage state. BLoC lets you build applications while ensurin
   State: Represents the current state of the application (e.g., loading, success, or error).
   BLoC: Acts as a middleman that receives events and maps them to states.
 
-I used Bloc to handle my authentication and for almost every feature in my app.
 
