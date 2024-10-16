@@ -1,6 +1,5 @@
-# newsapp2
-
-A new Flutter project.
+# newsapp
+by Edward Chan
 
 ## Getting Started
 
